@@ -3,6 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" 			prefix="fmt" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" 	prefix="fn" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" 			prefix="c" %>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -10,11 +11,23 @@
 <meta charset="utf-8">
 <title>슬비와 함께 떠난 여행 - 제주도 편</title>
 <link rel="stylesheet" type="text/css" href="<c:url value='/common/css/common.css'/>"/>
+<link rel="stylesheet" type="text/css" href="<c:url value='/common/css/layout.css'/>"/>
 <script type="text/javascript" src="<c:url value='/common/js/jquery-1.7.2.min.js'/>" ></script>
+
+<!--[if lt IE 9]>
+   <script>
+      document.createElement('header');
+      document.createElement('nav');
+      document.createElement('section');
+      document.createElement('article');
+      document.createElement('aside');
+      document.createElement('footer');
+   </script>
+<![endif]-->
 </head>
 <body>
-
-	<header>
+<article id="wrap">
+	<header id="header">
 		<hgroup>
 			<h1>슬비님 닷컴</h1>
 			<h2>슬비와 함께 Go! HTML5</h2>
@@ -27,8 +40,7 @@
 			</ul>
 		</nav>
 	</header>
-	
-	<article>
+	<article id="container">
 		<header>
 			<h1>제주도 투어</h1>
 			<p><time pubdate="pubdate" datetime="2011-05-24T08:39:00+09:00">2011년 5월 24일</p>
@@ -52,7 +64,7 @@
 		</aside>
 	</article>
 	
-	<footer>
+	<footer id="footer">
 		<ul>
 			<li><a href="privacyPolicy.html">개인정보 보호정책</a></li>
 			<li><a href="rejectEmail.html">이메일주소 무단 수집거부</a></li>
@@ -60,7 +72,7 @@
 		</ul>
 		<p>copyright &copy; seulbinim.com all rights reserved.</p>
 	</footer>
-	
+</article>
 </body>
 </html>
 
