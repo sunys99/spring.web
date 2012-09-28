@@ -6,7 +6,7 @@
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>슬비와 함께 떠난 여행 - 제주도 편</title>
@@ -14,16 +14,6 @@
 <link rel="stylesheet" type="text/css" href="<c:url value='/common/css/layout.css'/>"/>
 <script type="text/javascript" src="<c:url value='/common/js/jquery-1.7.2.min.js'/>" ></script>
 
-<!--[if lt IE 9]>
-   <script>
-      document.createElement('header');
-      document.createElement('nav');
-      document.createElement('section');
-      document.createElement('article');
-      document.createElement('aside');
-      document.createElement('footer');
-   </script>
-<![endif]-->
 </head>
 <body>
 <article id="wrap">
