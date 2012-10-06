@@ -18,6 +18,6 @@ public class SpringServiceDao extends JdbcDaoSupport {
 	}
 	
 	public List<Map<String,Object>> getList() {
-	    return getJdbcTemplate().queryForList("select * from movie");
+	    return getJdbcTemplate().queryForList("select * from user");
 	}
 }
