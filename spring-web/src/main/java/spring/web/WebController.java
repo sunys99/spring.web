@@ -35,4 +35,30 @@ public class WebController {
         model.addAttribute("message", "Hello World!");
         return "helloWorld";
     }
+    
+    @RequestMapping("/download")
+    public String download(Model model) throws Exception {
+    	return "download";
+    }
+    
+    @RequestMapping("/samplecode")
+    public String samplecode(Model model) throws Exception {
+    	return "samplecode";
+    }
+    
+    @RequestMapping("/manual")
+    public String support(Model model) throws Exception {
+    	return "manual";
+    }
+    
+    @RequestMapping("/signup")
+    public String signup(Model model) throws Exception {
+    	return "signup";
+    }
+    
+    @RequestMapping("/login")
+    public String login(Model model) throws Exception {
+    	return "login";
+    }
+    
 }
