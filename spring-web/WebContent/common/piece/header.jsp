@@ -1,14 +1,8 @@
 <%@include file="top.jsp" %><%@ page language="java" pageEncoding="utf-8"%>
 <div id="header" align="center">
  <div id="hContent">
-	 <div style="float: left;padding: 6px 0; cursor: pointer;">
-	 <a href="." style="text-decoration: none;">
-	 <div style="font-size: 26px;font-weight: bold;color: white;text-decoration: none;float: left;">DevFrame</div>
-	 <div style="float: left;padding: 11px 1px;color: white;font-weight: bold;">: 쉬운 웹 프레임워크</div>
-	 </a>
-	 </div> 
+	 <div id="sub_title"><a href="." >DevFrame</a></div> 
 	 <ul id="topmenu">
-	 <li><a href="helloWorld.do">소개</a></li>
 	 <li><a href="manual.do">시작하기</a></li>
 	 <li><a href="samplecode.do">샘플코드</a></li>
 	 <li><a href="download.do">다운로드</a></li>

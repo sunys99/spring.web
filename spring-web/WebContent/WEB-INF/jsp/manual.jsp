@@ -20,7 +20,7 @@
 		<li><a href="#">autorepo version updating</a></li>
 		<li><a href="#">SpringSource repository FAQ</a></li>
 		<li><a href="#">The lifecycle of an issue</a></li>
-		<li><a href="#">Manually merging pull requests</a></li>
+		<li><a href="#">모든 질의에 대한 수동 결합</a></li>
 		</ul>	
 	</div>
 </div>

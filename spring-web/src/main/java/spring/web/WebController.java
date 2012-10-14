@@ -17,8 +17,8 @@ public class WebController {
 	@Autowired
 	SpringService springService;
 
-    @RequestMapping("/helloWorld")
-    public String helloWorld(Model model) throws Exception {
+    @RequestMapping("/intro")
+    public String intro(Model model) throws Exception {
 
     	List<Map<String,Object>> data = springService.getList();
     	
@@ -33,7 +33,7 @@ public class WebController {
     		System.out.println("\n");
     	}
         model.addAttribute("message", "Hello World!");
-        return "helloWorld";
+        return "intro";
     }
     
     @RequestMapping("/download")
@@ -59,6 +59,11 @@ public class WebController {
     @RequestMapping("/login")
     public String login(Model model) throws Exception {
     	return "login";
+    }
+    
+    @RequestMapping("/license")
+    public String license(Model model) throws Exception {
+    	return "license";
     }
     
 }

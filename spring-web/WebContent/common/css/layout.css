@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 @IMPORT url("sh/shCore.css");
-@IMPORT url("sh/shThemeEclipse.css");
+@IMPORT url("sh/shCoreDefault.css");
 
 #wrap{width: 100%;}
 #header, #header.index{
@@ -14,14 +14,14 @@
 	color: white;
 	text-shadow: 0 2px 2px #0074A2;
 }
-#header.index{padding:20px 0;height: 17em;}
+#header.index{padding:17px 0;height: 17em;}
 #header {height: 4em;}
 
 #hContent {width: 800px;color: white;padding: 0 10px;}
-#topmenu {float: right;margin: 15px 0;}
-#topmenu li{float: left;color: white;font-weight: bold;margin: 0 5px;}
-#topmenu a{font-size: 14px;text-decoration: none;color: white;}
-#topmenu a:hover, a:focus	{color:black;}
+#topmenu {float: right;margin: 17px 0;}
+#topmenu li{float: left;margin: 0 5px;}
+#topmenu a{font-size: 12px;color: white;}
+#topmenu a:hover{color: black;text-decoration: none;}
 
 #container{clear: both;background: white;}
 #cContent {width: 800px;padding: 20px 10px;}
@@ -43,36 +43,36 @@
 #footer{height: 80px; padding-top: 1em; background: #F5F5F5; border-top: 1px solid #E5E5E5;clear: both;}
 #footlink{width: 600px;}
 #footlink li {float: left;margin: 10px;}
-#footlink a{text-decoration: none;}
-#footlink a:HOVER{color: black;font-weight: bold;}
+#footlink a{text-decoration: none;color:#036 }
+#footlink a:hover{color: black;font-weight: bold;text-decoration: underline;}
 
 
-/* manual css*/
+/* wiki css*/
 .wikiContent .topList {padding: 20px;}
 .wikiContent .topList li{ list-style-type: disc;margin: 5px;}
 .wikiContent .topList li a {font-weight: bold;font-size: 13px;color:#6A92C4; }
-.wikiContent .topList li a:HOVER {font-weight: bold;font-size: 13px;color:black; }
+.wikiContent .topList li a:HOVER {font-weight: bold;font-size: 13px;color:black;text-decoration: underline; }
+.wikiContent h1, .wikiContent h2, .wikiContent h3, .wikiContent h4, .wikiContent h5, .wikiContent h6 {
+	margin: 15px 0 5px 5px;
+}
+.wikiContent p{padding: 0 0 0 20px; }
 
 
 
 
+#main_title {float: left;color: white;}
+#main_title_logo {font-size: 36px;font-weight: bold;line-height: 1em;}
+#main_title_desc {padding: 0 1px;color: white;}
 
+#main_menu {float: right;}
+#main_menu li{float: left;margin: 0px 5px;}
+#main_menu a {color: white;}
+#main_menu a:hover{text-decoration: none;color: black;}
+#main_desc {padding: 50px 0;clear: both;}
+#main_desc a {color: white;font-size: 29px;font-weight: bold;}
+#main_desc a:hover {font-weight: bold;color: black;text-decoration: none;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#sub_title{float: left;padding: 6px 0; cursor: pointer;}
+#sub_title a {text-decoration: none;font-size: 28px;font-weight: bold;color: white;}
+#sub_title a:HOVER{color: black;} 
 

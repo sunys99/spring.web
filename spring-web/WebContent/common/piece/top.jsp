@@ -17,8 +17,9 @@
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
 SyntaxHighlighter.autoloader(
-		'js jscript javascript  /common/js/sh/shBrushJScript.js',
-		'applescript            /common/js/sh/shBrushAppleScript.js');
+  '../common/js/sh/shBrushJScript.js',
+  '../common/js/sh/shBrushAppleScript.js'
+);
 SyntaxHighlighter.all();
 </script>
 </head>

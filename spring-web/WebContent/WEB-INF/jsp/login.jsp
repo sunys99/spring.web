@@ -5,7 +5,7 @@
 	<div align="center">
 		<form:form id="ss" >
 		<table class="tblInputForm">
-			<tr><th>아이디</th><td><input type="text"></td><th>비밀번호</th><td><input type="password"></td><td><input type="button" class="button" value="로그인"></td></tr>
+			<tr><th>아이디</th><td><input type="text" autofocus="autofocus"></td><th>비밀번호</th><td><input type="password"></td><td><input type="button" class="button" value="로그인"></td></tr>
 		</table>
 		<div style="margin: 5px;">
 		<table>
