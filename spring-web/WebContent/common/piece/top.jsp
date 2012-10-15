@@ -8,7 +8,7 @@
 <html lang="ko">
 <head>
 <meta charset="utf-8">
-<title>DevFrame | 쉬운 웹 프레임워크</title>
+<title>Devframe | 쉬운 웹 프레임워크</title>
 <link rel="stylesheet" type="text/css" href="<c:url value='/common/css/common.css'/>"/>
 <link rel="stylesheet" type="text/css" href="<c:url value='/common/css/layout.css'/>"/>
 <script type="text/javascript" src="<c:url value='/common/js/jquery-1.7.2.min.js'/>" ></script>
