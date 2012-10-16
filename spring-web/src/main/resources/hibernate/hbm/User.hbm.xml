@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="org.devframe.domain.User" table="DF_USER">
+
+        <id name="userId" type="string">
+            <column name="USER_ID"/>
+            <generator class="assigned" />
+        </id>
+        <property name="firstName" type="string">
+            <column name="FIRST_NAME" not-null="true" />
+        </property>
+        <property name="lastName" type="string">
+            <column name="LAST_NAME" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL" not-null="true" />
+        </property>
+        <property name="cellPhone" type="string">
+            <column name="CELL_PHONE" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="PASSWORD" not-null="true" />
+        </property>
+        <property name="homeLocation" type="string">
+            <column name="HOME_LOCATION" not-null="true" />
+        </property>
+        <property name="currentLocation" type="string">
+            <column name="CURRENT_LOCATION" not-null="true" />
+        </property>
+        <property name="sex" type="char">
+            <column name="SEX" not-null="true" />
+        </property>
+        <property name="birthYear" type="int">
+            <column name="BIRTH_YEAR" not-null="true" />
+        </property>
+        <property name="birthMonth" type="int">
+            <column name="BIRTH_MONTH" not-null="true" />
+        </property>
+        <property name="birthDay" type="int">
+            <column name="BIRTH_DAY" not-null="true" />
+        </property>
+        <property name="approvied" type="char">
+            <column name="APPROVIED" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

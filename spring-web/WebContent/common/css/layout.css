@@ -39,6 +39,8 @@
 #cContent .tblInputForm .text25{width: 54px;margin-right: 2px;}
 #cContent .tblInputForm .button{width: 60px;height: 27px;font-weight: bold;border: 1px solid #CCCCCC; background-color: #414141; color: white;cursor: pointer;}
 #cContent .tblInputForm .button100{width: 101px;height: 27px;font-weight: bold;border: 1px solid #CCCCCC; background-color: #3A3A3A; color: white;cursor: pointer;margin-right: 1px;}
+#cContent .tblInputForm select{padding: 4px 5px;width: 65px;font-weight: bold;}
+
 
 #footer{height: 80px; padding-top: 1em; background: #F5F5F5; border-top: 1px solid #E5E5E5;clear: both;}
 #footlink{width: 600px;}
