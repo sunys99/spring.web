@@ -10,6 +10,7 @@
         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
     <context:component-scan base-package="org.devframe"/>
+    <context:component-scan base-package="spring"/>
     
     <bean id="JstlViewResolver"
 	      class="org.springframework.web.servlet.view.UrlBasedViewResolver">
