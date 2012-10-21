@@ -1,8 +1,9 @@
 <%@include file="common/piece/top.jsp" %><%@ page language="java" pageEncoding="utf-8"%>
-<div id="header" align="center" class="index">
-	<div id="hContent" align="left">
+<div id="header" class="index">
+	<div id="hContent">
 		<div id="main_title">
-			<p id="main_title_desc"> : 쉬운 웹 프레임워크</p><label id="main_title_logo">DevFrame</label>
+			<p id="main_title_desc"> : 쉬운 웹 프레임워크</p>
+			<label id="main_title_logo">DevFrame</label>
 		</div>
 		<div id="main_menu">
 			<ul>
@@ -16,8 +17,8 @@
 		<div id="main_desc" align="center"><a href="manual.do">쉽고 강력한 웹 프레임워크 없나?</a></div>
 	</div>
 </div>
-<div id="container" align="center">
-	<div id="cContent" align="left">
+<div id="container">
+	<div id="cContent">
 		<h4>프레임워크는 쉽다?</h4>
 		<p>아니오, 지금까지 프레임 워크는 어려웠습니다. 개발 생산성 향상 및 유지보수를 쉽게한다라는 달콤한 대 명제 아래 
 		수많은 프레임 워크들이 생겨났습니다. 이제는 그 숫자로 헤아릴수 없을 만큼 많은 프레임워크를 다시 공부 해야하는 
@@ -37,5 +38,7 @@
 		<h6>Link: <a href="http://www.devframe.org" target="_new">Google Project</a></h6>
 		</div>
 	</div>
+	
+	<a href="analysis.do">analysis</a>
 </div>
 <%@include file="/common/piece/footer.jsp" %>

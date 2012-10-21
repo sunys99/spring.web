@@ -1,13 +1,13 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
-<div id="container" align="center">
-<div id="cContent" align="left">
-	<h4 class="hTitle">다운로드</h4>
+<div id="container">
+<div id="cContent">
+	<h2 class="hTitle">다운로드</h2>
 	
-	<div>
+	<div class="wikiContent">
+	<h5>1. 코어</h5>
 		<ul style="list-style-type: disc;">
 		<li>
-		<a href=".">Spring Framework</a>
-			<div>
+		<a>DevFrame Core</a>
 			<ul>
 			<li>
 			<a href="#">Latest Development release: 3.2.0.M2</a>
@@ -19,9 +19,16 @@
 			<a href="#">More>></a>
 			</li>
 			</ul>			
-			</div>
 		</li>
 		</ul>	
+	</div>
+	
+	
+	<div class="wikiContent">
+	<h5>2. 플러그인</h5>
+	<table style="border: 1px solid;width: 100%;text-align: left;" >
+	<tr><th>애널리틱스</th><td>dfdfdf</td><td><a href=".">시작하기</a><a href=".">다운로드</a></td></tr>
+	</table>
 	</div>
 </div>
 </div>

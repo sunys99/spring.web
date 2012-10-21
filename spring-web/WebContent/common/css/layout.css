@@ -2,7 +2,9 @@
 @IMPORT url("sh/shCore.css");
 @IMPORT url("sh/shCoreDefault.css");
 
-#wrap{width: 100%;}
+#wrap{min-width: 880px;}
+#container, #hContent{width:950px;margin:0 auto;text-align:left}
+
 #header, #header.index{
 	background-color: #1E8CBE;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#2EA2CC), to(#1E8CBE));
@@ -15,16 +17,16 @@
 	text-shadow: 0 2px 2px #0074A2;
 }
 #header.index{padding:17px 0;height: 17em;}
-#header {height: 4em;}
+#header {height: 4em;width: 100%;}
 
-#hContent {width: 800px;color: white;padding: 0 10px;}
+#hContent {width: 950px;color: white;padding: 0 10px;}
 #topmenu {float: right;margin: 17px 0;}
 #topmenu li{float: left;margin: 0 5px;}
 #topmenu a{font-size: 12px;color: white;}
 #topmenu a:hover{color: black;text-decoration: none;}
 
 #container{clear: both;background: white;}
-#cContent {width: 800px;padding: 20px 10px;}
+#cContent {padding: 20px 5px;}
 #cContent p{font-size: 13px;margin: 5px;line-height: 1.7em;}
 #cContent p a {font-size: 13px;color: blue;}
 #cContent p b {color: black;}
@@ -71,7 +73,7 @@
 #main_menu a {color: white;}
 #main_menu a:hover{text-decoration: none;color: black;}
 #main_desc {padding: 50px 0;clear: both;}
-#main_desc a {color: white;font-size: 29px;font-weight: bold;}
+#main_desc a {color: white;font-size: 31px;font-weight: bolder;}
 #main_desc a:hover {font-weight: bold;color: black;text-decoration: none;}
 
 #sub_title{float: left;padding: 6px 0; cursor: pointer;}

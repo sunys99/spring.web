@@ -66,4 +66,9 @@ public class WebController {
     	return "license";
     }
     
+    @RequestMapping("/analysis")
+    public String analysis(Model model) throws Exception {
+    	return "analysis";
+    }
+    
 }

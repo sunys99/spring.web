@@ -1,6 +1,6 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
-<div id="container" align="center">
-<div id="cContent" align="left">
+<div id="container">
+<div id="cContent">
 	<h4 class="hTitle">샘플 코드</h4>
 	
 	<h5>1. 원클릭 인스톨</h5>

@@ -1,7 +1,7 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
 <div id="container" align="center">
 <div id="cContent" align="left">
-	<h4 class="hTitle">로그인</h4>
+	<h2 class="hTitle">로그인</h2>
 	<div align="center">
 		<form:form id="ss" >
 		<table class="tblInputForm">

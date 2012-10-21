@@ -1,5 +1,5 @@
 <%@include file="top.jsp" %><%@ page language="java" pageEncoding="utf-8"%>
-<div id="header" align="center">
+<div id="header">
  <div id="hContent">
 	 <div id="sub_title"><a href="." >DevFrame</a></div> 
 	 <ul id="topmenu">

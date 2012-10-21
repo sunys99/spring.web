@@ -1,6 +1,6 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
-<div id="container" align="center">
-<div id="cContent" align="left">
+<div id="container">
+<div id="cContent">
 	<h4 class="hTitle">소개</h4>
 	
 	<h6>프레임워크는 쉽다?</h6>
@@ -18,5 +18,7 @@
 	<p>또 다른 배보다 배꼽을 더크게 만드는 일은 아닐런지 걱정이 됩니다. 그러나 저 스스로 어렵고 귀찮은걸 너무 싫어하는지라
 	쉽게 사용할수 있게 될겁니다. 더더더더 쉽게. 아우~ 이거 쓰는 것도 귀찮아.</p>
 </div>
+
+<a href="analysis.jsp">analysis</a>
 </div>
 <%@include file="/common/piece/footer.jsp" %>
