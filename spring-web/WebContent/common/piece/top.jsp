@@ -24,4 +24,4 @@ SyntaxHighlighter.all();
 </script>
 </head>
 <body>
-<div id="wrap" style="margin: 0 auto;">
+<div id="wrap">

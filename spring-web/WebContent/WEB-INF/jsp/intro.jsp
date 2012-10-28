@@ -1,6 +1,6 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
 <div id="container">
-<div id="cContent">
+<div class="cContent">
 	<h4 class="hTitle">소개</h4>
 	
 	<h6>프레임워크는 쉽다?</h6>

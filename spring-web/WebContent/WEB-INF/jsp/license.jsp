@@ -1,7 +1,7 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
 <div id="container">
-<div id="cContent">
-	<h4 class="hTitle">라이센스</h4>
+<div class="cContent">
+	<h1 class="hTitle">라이센스</h1>
 	<p>DevFrame의 모든 프로젝트는 라이선스 정책으로 Apache Licence, Version 2.0을 채택합니다. 단, DevFrame 내에서 사용된 
 	외부 오픈 소스의 경우 원 오픈 소스의 라이선스 정책을 따릅니다.</p>
 	

@@ -4,7 +4,7 @@
 
 /* reset default browser setting */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, fieldset, legend, input, button, textarea, select, option, p, blockquote ,th ,td, a, .ie6fix select, .ie6fix option
-	{margin:0; padding:0; font-family:'나눔고딕', nanum,"Helvetica Neue",Helvetica,'돋움',Dotum,dodtum Arial, sans-serif; color:#555555; font-size:9pt;}
+	{margin:0; padding:0; font-family:'나눔고딕', nanum,"Helvetica Neue",Helvetica,'돋움',Dotum,dodtum Arial, sans-serif; color:#555555; font-size:12px;}
 body		{font-size:0.75em;}
 body #ie6fix {font-size:12px;}
 form	{margin:0; padding:0;display: block;}
@@ -34,10 +34,13 @@ h1, h2, h3, h4, h5, h6 {
 	color: #464646;
 	margin: 20px 0 3px 0;
 }
-h1 {font-size: 24px;}
-h2 {font-size: 18px;}
-h3 {font-size: 20px;}
+
+h1 {font-size: 27px;}
+h2 {font-size: 25px;}
+h3 {font-size: 22px;}
 h4 {font-size: 18px;}
 h5 {font-size: 16px;}
 h6 {font-size: 14px;}
+
+
 

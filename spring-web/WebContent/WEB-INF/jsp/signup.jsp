@@ -1,5 +1,5 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
-<div id="container" align="center">
+<div id="container">
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script>
 	var stockholm = new google.maps.LatLng(59.32522, 18.07002);
@@ -44,8 +44,8 @@
 	}
 	
 </script>
-<div id="cContent" align="left">
-	<h2 class="hTitle" onclick="initialize();">회원 가입</h2>
+<div class="cContent">
+	<h1 class="hTitle" onclick="initialize();">회원가입</h1>
 	<div id="regArea" style="float: left;">
 		<table class="tblInputForm">
 		<form:form modelAttribute="user" name="userform" method="post">

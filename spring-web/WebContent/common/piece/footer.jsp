@@ -1,5 +1,6 @@
 <%@ page language="java" pageEncoding="utf-8"%>
-	<div id="footer" align="center">
+<div id="footer">
+	<div class="fContent">
 		<ul id="footlink">
 		<li><a href=".">About Me?</a></li>
 		<li><a href="license.do">License</a></li>
@@ -9,6 +10,7 @@
 		<li><a href=".">Privacy Policy</a></li>
 		</ul>
 	</div>
+</div>
 </div>
 </body>
 </html>

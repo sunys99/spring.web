@@ -1,5 +1,5 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
-<div id="container">
+<div class="container">
 <div class="snb" style="float: left; width: 151px;border: 1px solid;">
 <div></div>
 
