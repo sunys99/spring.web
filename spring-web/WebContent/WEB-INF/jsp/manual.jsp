@@ -3,7 +3,7 @@
 <div class="cContent">
 	<jsp:include page="/common/piece/leftmenu.jsp"></jsp:include>
 	<div class="rContent">
-	<div class="hTitle"><label>최신 버전 릴리즈</label></div>
+	<div class="hTitle"><label>퀵 메뉴얼</label></div>
 	<div class="wikiContent">
 	<p>김종인 새누리당 국민행복추진위원장은 지난 6일 서울 인근의 모처에서 와 가</p>
 		<ul class="toplist">

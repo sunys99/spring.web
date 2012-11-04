@@ -38,9 +38,10 @@
 	
 	
 	function fncAddUser(){
-		alert('fncAddUser');
+		/*
 		document.userform.action = "addUser.do";
 		document.userform.submit();
+		*/
 	}
 	
 </script>

@@ -12,8 +12,8 @@
 	<li>
 	<div class="category"><label>Download</label></div>
 	<ul class="smenu">
-	<li><a href="#">Recent release</a></li>
-	<li><a href="#">Last releases</a></li>
+	<li><a href="download.do">Recent release</a></li>
+	<li><a href="download.do">Last releases</a></li>
 	</ul>
 	</li>
 	<li>
