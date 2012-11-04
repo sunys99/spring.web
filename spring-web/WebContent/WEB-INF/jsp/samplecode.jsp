@@ -1,7 +1,7 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
 <div id="container">
 <div class="cContent">
-	<h1 class="hTitle">샘플코드</h1>
+	<h2 class="hTitle">샘플코드</h2>
 	
 	<h5>1. 원클릭 인스톨</h5>
 	<p>김종인 새누리당 국민행복추진위원장은 지난 6일 서울 인근의 모처에서 <한겨레>와 가진 단독인터뷰에서 "(박근혜 후보에게) 나와 이한구 원내대표 중에서 선택하라고 했다"면서 

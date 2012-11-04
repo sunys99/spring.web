@@ -6,15 +6,13 @@
 	 <p id="solname">DevFrame</p>
 	 </div>
 	 
-	 <ul id="topmenu">
-	 <li><a href="manual.do">시작하기</a></li>
-	 <li><a href="samplecode.do">샘플코드</a></li>
-	 <li><a href="download.do">다운로드</a></li>
-	 <li><a href="signup.do">회원가입</a></li>
-	 <li><a href="login.do">로그인</a></li>
-	 </ul>
+	 <div class="gnb">
+		 <ul>
+		 <li><a href="manual.do">시작하기</a></li>
+		 <li><a href="signup.do">회원가입</a></li>
+		 <li><a href="login.do">로그인</a></li>
+		 </ul>	 
+	 </div>
+	 <div id="htitle"></div>
  </div>
 </div>
-<style>
-
-</style> 

@@ -3,29 +3,43 @@
 @IMPORT url("sh/shCoreDefault.css");
 
 #wrap{min-width: 880px;}
-#header {height: 5em;background-color: #2798C6;}
+#header {height: 7em;}
+#container{}
+#footer{clear: both;}
 
-#footer{background: #F5F5F5; border-top: 1px solid #E5E5E5;}
+#header{
+	background-color: #1E8CBE;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#2EA2CC), to(#1E8CBE));
+	background-image: -webkit-linear-gradient(top, #2EA2CC, #1E8CBE);
+	background-image: -moz-linear-gradient(top, #2EA2CC, #1E8CBE);
+	background-image: -o-linear-gradient(top, #2EA2CC, #1E8CBE);
+	background-image: linear-gradient(to bottom, #2EA2CC, #1E8CBE);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#2EA2CC', endColorstr='#1E8CBE')";
+	color: white;
+	text-shadow: 0 2px 2px #0074A2;
+}
 
 .hContent, .cContent{width:950px;margin:0 auto;}
 
 
-
-#logo {float: left;margin: 10px 0;cursor: pointer;}
+#logo {float: left;margin: 20px 0 0 0;cursor: pointer;}
 #logo p{color: white;line-height: 1em;}
-#logo #logodesc{font-size: 11px;}
-#logo #solname{font-size: 31px;font-weight: bold;}
-#topmenu {float: right;margin: 23px 0;}
-#topmenu li{float: left;margin: 0 5px;}
-#topmenu a{font-size: 12px;color: white;}
-#topmenu a:hover{color: black;text-decoration: none;}
+#logo p:hover{color: black;}
+#logo #logodesc{font-size: 12px;}
+#logo #solname{font-size: 36px;font-weight: bold;}
 
+.gnb ul{float: right;margin: 20px 0;}
+.gnb li{float: left;margin: 0 5px;}
+.gnb a{font-size: 12px; color: white;}
+.gnb a:hover{color: black;text-decoration: none;}
 
-.cContent {padding: 20px 5px;}
+.hTitle{ border-bottom: 1px solid #299BC7;padding-bottom: 7px;margin-bottom: 20px;}
+.hTitle label{font-size: 25px;font-weight: bold;}
+
+.cContent {margin-top: 30px;}
 .cContent p{font-size: 13px;margin: 5px;line-height: 1.7em;}
 .cContent p a {font-size: 13px;color: blue;}
 .cContent p b {color: black;}
-.cContent .hTitle{ border-bottom: 1px solid #299BC7;padding-bottom: 4px;margin-bottom: 20px;}
 .cContent .tblInputForm tr td {padding: 1px;}
 .cContent .tblInputForm tr th {text-align: right;padding: 4px;}
 .cContent .tblInputForm input {height: 15px;padding: 5px;width: 190px;}
@@ -36,22 +50,35 @@
 .cContent .tblInputForm select{padding: 4px 5px;width: 65px;font-weight: bold;}
 
 
-.fContent{margin:0 auto;width: 600px;height: 35px;}
-#footlink li {float: left;margin: 10px;}
-#footlink a{text-decoration: none;color:black;}
-#footlink a:hover{color: black;font-weight: bold;text-decoration: underline;}
+.fContent{background: #F5F5F5; border-top: 1px solid #E5E5E5; height: 60px;margin: 50px 0 0 0;}
+.fContent #footlink{margin:0 auto;width: 550px;padding: 10px;}
+.fContent #footlink li {float: left;margin: 10px;}
+.fContent #footlink a{text-decoration: none;color:black;}
+.fContent #footlink a:hover{color: black;font-weight: bold;text-decoration: underline;}
 
 
 /* wiki css*/
-.wikiContent .topList {padding: 20px;}
-.wikiContent .topList li{ list-style-type: disc;margin: 5px;}
-.wikiContent .topList li a {font-weight: bold;font-size: 13px;color:#6A92C4; }
-.wikiContent .topList li a:HOVER {font-weight: bold;font-size: 13px;color:black;text-decoration: underline; }
+.wikiContent .toplist {padding: 10px;margin:0 0 0 30px;}
+.wikiContent .toplist li{ list-style-type: disc;margin: 5px;}
+.wikiContent .toplist li a {font-weight: bold;font-size: 13px;color:#6A92C4; }
+.wikiContent .toplist li a:HOVER {font-weight: bold;font-size: 13px;color:black;text-decoration: underline; }
 .wikiContent h1, .wikiContent h2, .wikiContent h3, .wikiContent h4, .wikiContent h5, .wikiContent h6 {
-	margin: 15px 0 5px 5px;
+	margin: 20px 0 5px 5px;color: #0188CC;font-weight: bold;
 }
 .wikiContent p{padding: 0 0 0 20px; }
 
-#main_desc {padding: 60px 0;background-color: #2798C6;}
-#main_desc a {color: white;font-size: 31px;font-weight: bolder;}
+#main_desc {padding: 120px 0px 0px 0px;}
+#main_desc a {color: white;font-size: 40px;font-weight: bold;}
 #main_desc a:hover {font-weight: bold;color: black;text-decoration: none;}
+
+
+
+/* side navigation menu*/
+.snb{float: left;border-right: 1px solid #F0F0F0; padding-right:10px; width: 100px;}
+.snb .category {height: 20px;padding: 10px 0px 1px 0px;}
+.snb .category label{font-weight: bold;font-size: 14px;}
+
+.smenu li{padding: 0px 0 2px 10px;margin: 3px 0;}
+.smenu li a{font-size: 12px;}
+.smenu li:hover{background-color: #989898;}
+.rContent{margin-left: 100px;padding: 20px 0 0 30px;}

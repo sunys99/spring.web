@@ -1,7 +1,7 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
 <div id="container">
 <div class="cContent">
-	<h1 class="hTitle">다운로드</h1>
+	<h2 class="hTitle">다운로드</h2>
 	
 	<div class="wikiContent">
 	<h5>1. 코어</h5>
