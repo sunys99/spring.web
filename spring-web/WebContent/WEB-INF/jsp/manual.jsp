@@ -3,7 +3,7 @@
 <div class="cContent">
 	<jsp:include page="/common/piece/leftmenu.jsp"></jsp:include>
 	<div class="rContent">
-	<div class="hTitle"><label>퀵 메뉴얼</label></div>
+	<div class="hTitle"><label>설치 메뉴얼</label></div>
 	<div class="wikiContent">
 	<p>김종인 새누리당 국민행복추진위원장은 지난 6일 서울 인근의 모처에서 와 가</p>
 		<ul class="toplist">
@@ -18,7 +18,7 @@
 		<li><a href="#">모든 질의에 대한 수동 결합</a></li>
 		</ul>	
 		
-	<h1>원클릭 인스톨</h1>
+	<h2>원클릭 인스톨 One click install</h2>
 	<p>김종인 새누리당 국민행복추진위원장은 지난 6일 서울 인근의 모처에서 <한겨레>와 가진 단독인터뷰에서 "(박근혜 후보에게) 나와 이한구 원내대표 중에서 선택하라고 했다"면서 
 	"경제민주화 입법을 주도해야 할 원내대표는 재벌에 연관된 사람을 임명해서는 안된다"고 밝혔다. 이 원내대표의 교체없이는 복귀할 수 없음을 분명히 한 것이다.
 	김 위원장이 지난 4일 새누리당 의총에서 경제민주화 당론 채택이 무산된데 반발해 "이대로는 일할 수 없다"며, 휴대폰 전원도 끊은 채 잠적한 이후 언론과 인터뷰하기는 처음이다. 

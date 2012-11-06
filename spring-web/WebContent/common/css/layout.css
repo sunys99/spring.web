@@ -3,8 +3,8 @@
 @IMPORT url("sh/shCoreDefault.css");
 
 #wrap{min-width: 880px;}
-#header {height: 7em;}
-#container{}
+#header {height: 7em; padding: 0 20px;}
+#container{padding: 0 20px;}
 #footer{clear: both;}
 
 #header{
@@ -22,19 +22,23 @@
 .hContent, .cContent{width:950px;margin:0 auto;}
 
 
-#logo {float: left;margin: 20px 0 0 0;cursor: pointer;}
-#logo p{color: white;line-height: 1em;}
+#logo {float: left;margin: 15px 0 0 0;cursor: pointer;}
+#logo p{color: white;line-height: 1.2em;}
 #logo p:hover{color: black;}
 #logo #logodesc{font-size: 12px;}
 #logo #solname{font-size: 36px;font-weight: bold;}
 
-.gnb ul{float: right;margin: 20px 0;}
-.gnb li{float: left;margin: 0 5px;}
+.gnb{padding: 14px 0;}
+.gnb ul{float: right;}
+.gnb li{float: left;margin: 0 5px;padding: 2px 0;}
 .gnb a{font-size: 12px; color: white;}
 .gnb a:hover{color: black;text-decoration: none;}
+#gsearch{padding: 0px;}
+#gbutton {float:right;clear: right;margin: 13px 1px;}
+#gbutton a{margin: 0 1px;}
 
 .hTitle{ border-bottom: 1px solid #299BC7;padding-bottom: 7px;margin-bottom: 20px;}
-.hTitle label{font-size: 25px;font-weight: bold;}
+.hTitle label{font-size: 27px;font-weight: bold;}
 
 .cContent {margin-top: 30px;}
 .cContent p{font-size: 13px;margin: 5px;line-height: 1.7em;}
@@ -50,7 +54,7 @@
 .cContent .tblInputForm select{padding: 4px 5px;width: 65px;font-weight: bold;}
 
 
-.fContent{background: #F5F5F5; border-top: 1px solid #E5E5E5; height: 60px;margin: 50px 0 0 0;}
+.fContent{background: #F5F5F5; border-top: 1px solid #E5E5E5; height: 60px;margin: 50px 0 0 0;clear: both;}
 .fContent #footlink{margin:0 auto;width: 550px;padding: 10px;}
 .fContent #footlink li {float: left;margin: 10px;}
 .fContent #footlink a{text-decoration: none;color:black;}
@@ -63,8 +67,15 @@
 .wikiContent .toplist li a {font-weight: bold;font-size: 13px;color:#6A92C4; }
 .wikiContent .toplist li a:HOVER {font-weight: bold;font-size: 13px;color:black;text-decoration: underline; }
 .wikiContent h1, .wikiContent h2, .wikiContent h3, .wikiContent h4, .wikiContent h5, .wikiContent h6 {
-	margin: 20px 0 5px 5px;color: #0188CC;font-weight: bold;
+	color: #0188CC;font-weight: bold;
 }
+.wikiContent h1{margin: 40px 0 5px 0px;}
+.wikiContent h2{margin: 35px 0 10px 5px;}
+.wikiContent h3{margin: 30px 0 9px 10px;}
+.wikiContent h4{margin: 25px 0 8px 15px;}
+.wikiContent h5{margin: 20px 0 7px 20px;}
+.wikiContent h6{margin: 15px 0 6px 25px;}
+
 .wikiContent p{padding: 0 0 0 20px; }
 
 #main_desc {padding: 120px 0px 0px 0px;}
@@ -74,11 +85,11 @@
 
 
 /* side navigation menu*/
-.snb{float: left;border-right: 1px solid #F0F0F0; padding-right:10px; width: 100px;}
+.snb{float: left;border-right: 1px solid #DADADA; padding:5px; width: 90px;margin:0 0 30px 0;}
 .snb .category {height: 20px;padding: 10px 0px 1px 0px;}
 .snb .category label{font-weight: bold;font-size: 14px;}
 
 .smenu li{padding: 0px 0 2px 10px;margin: 3px 0;}
 .smenu li a{font-size: 12px;}
 .smenu li:hover{background-color: #989898;}
-.rContent{margin-left: 100px;padding: 20px 0 0 30px;}
+.rContent{margin-left: 90px;padding: 20px 0 0 30px;}

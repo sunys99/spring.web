@@ -8,11 +8,18 @@
 	 
 	 <div class="gnb">
 		 <ul>
-		 <li><a href="manual.do">시작하기</a></li>
-		 <li><a href="signup.do">회원가입</a></li>
 		 <li><a href="login.do">로그인</a></li>
-		 </ul>	 
+		 <li><a href="download.do">다운로드</a></li>
+		 <li><a href="manual.do">가이드문서</a></li>
+		 <li id="gsearch"><input type="text" style="width: 150px;"></li>
+		 </ul>
 	 </div>
+	 <div id="gbutton">
+	 <a href="#"><img alt="" src='<c:url value='/common/img/add_20.png'/>' title="Adding Page"/></a>
+	 <a href="#"><img alt="" src='<c:url value='/common/img/edit_20.png'/>' title="Adding Comments" /></a>
+	 <a href="#"><img alt="" src='<c:url value='/common/img/tools_20.png'/>' title="Administration"/></a>
+	 </div>
+	 
 	 <div id="htitle"></div>
  </div>
 </div>

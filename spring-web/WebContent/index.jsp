@@ -3,13 +3,13 @@
 	<div class="cContent">
 	<div style="float: left;width: 550px;" class="mframe">
 		<div class="wikiContent">
-		<h4>DevFrame이란?</h4>
+		<h2>DevFrame이란?</h2>
 		<p> Open Source 기반의 Java 웹 프레임워크 입니다.</p>
 		
-		<h4>쉬운 웹 프레임워크란?</h4>
+		<h2>쉬운 웹 프레임워크란?</h2>
 		<p> 설치하기 쉽고(install), 개발하기 좋고(develop), 유지보수하기 쉬운 프레임 워크를 쉬운 웹 프레임워크입니다.</p>
 		
-		<h4>누구에게 필요한가?</h4>
+		<h2>누구에게 필요한가?</h2>
 		<p> 1.빠른 시간에 원하는 모양의 사이트를 구축하고 싶으신분.</p>
 		<p> 2.웹 애플리케이션을 만들려는데 기본적인 기능이 필요하신 분.</p>
 		<p> 3.관리하는 사이트의 유지보수가 혼자 힘들어 관리편한 애플리케이션을 만들고 싶으신분.</p>
@@ -50,7 +50,7 @@
 .mframe ul li{list-style-type: disc;margin: 2px 0;}
 .mframe ul li a{}
 .mtitle{color: #1F8DBF;}
-#rpanel{border-left: 1px solid #DADADA;}
+#rpanel{border-left: 1px solid #DADADA;margin-top: 40px;}
 -->
 </style>
 <%@include file="/common/piece/footer.jsp" %>
