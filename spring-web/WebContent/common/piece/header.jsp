@@ -14,6 +14,9 @@
 		 <li id="gsearch"><input type="text" style="width: 150px;"></li>
 		 </ul>
 	 </div>
+	 
+	 
+			 
 	 <div id="gbutton">
 	 <a href="#"><img alt="" src='<c:url value='/common/img/add_20.png'/>' title="Adding Page"/></a>
 	 <a href="#"><img alt="" src='<c:url value='/common/img/edit_20.png'/>' title="Adding Comments" /></a>
@@ -23,3 +26,28 @@
 	 <div id="htitle"></div>
  </div>
 </div>
+<script type="text/javascript">
+<!--
+$("#glogin").hide();
+function fncShowUpDiaglog(id, mode){
+	
+	/*
+	if(mode == 'on'){
+		$("#login").show();
+		$("#glogin").hide();
+	}else{
+		$("#login").hide();
+		$("#glogin").show();
+	}
+	*/
+	
+}
+
+
+//-->
+</script>
+<!-- container -->
+<div id="container">
+<!-- center contents -->
+<div class="cContent">
+<jsp:include page="/common/piece/submenu.jsp"></jsp:include>

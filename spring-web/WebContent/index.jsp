@@ -1,6 +1,4 @@
 <%@include file="common/piece/header.jsp" %><%@ page language="java" pageEncoding="utf-8"%>
-<div id="container">
-	<div class="cContent">
 	<div style="float: left;width: 550px;" class="mframe">
 		<div class="wikiContent">
 		<h2>DevFrame이란?</h2>
@@ -36,12 +34,13 @@
 		<li><a href="https://www.facebook.com/devframe" target="_blank">DevFrame</a></li>
 		</ul>
 	</div>
-	</div>
-</div>
 <script  type="text/javascript">
 	var htitle = '<div id="main_desc" style="text-align: center;"><a href="intro.do">쉬운 웹 프레임워크 없나?</a></div>';
 	$("#header").css("height", "20em");
 	$("#htitle").html(htitle);
+	$(".snb").hide();
+	$(".nav").hide();
+	
 </script>
 <style>
 <!--

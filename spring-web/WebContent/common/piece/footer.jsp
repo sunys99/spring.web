@@ -1,4 +1,6 @@
 <%@ page language="java" pageEncoding="utf-8"%>
+</div><!-- //center contents -->
+</div><!-- //container -->
 <div id="footer">
 <div class="fContent">
 	<div id="footlink">

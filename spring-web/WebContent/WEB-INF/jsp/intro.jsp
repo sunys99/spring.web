@@ -1,8 +1,5 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
-<div id="container">
-<div class="cContent">
-	<jsp:include page="/common/piece/leftmenu.jsp"></jsp:include>
-	<div class="rContent">
+<div class="rContent">
 	<div class="hTitle"><label>쉬운 웹 프레임워크 없나? Is there easy framework?</label></div>
 	<div class="wikiContent">
 	<h2>프레임 워크는 쉽다?</h2>
@@ -16,21 +13,19 @@
 	출발하려고 한다. <b>'개발하기 쉬운', '확장하기 쉬운', '설치하기 쉬운', '유지보수하기 쉬운'</b>.</p>
 	
 	
-	<h2><label>개발하기</label> 쉬운</h2>
+	<h4><label>개발하기</label> 쉬운</h4>
 	<p>개발을 쉽게 하기위해 아래와 같은 기능을 제공합니다.</p>
 	
-	<h2><label>확장하기</label> 쉬운 </h2>
+	<h4><label>확장하기</label> 쉬운 </h4>
 	<p>웹 애플리케이션의 다양한 확장을 위해서 플러그인(Plugin)기능을 제공합니다.</p>
 	
-	<h2><label>설치하기</label> 쉬운</h2>
+	<h4><label>설치하기</label> 쉬운</h4>
 	<p>웹 애플리케이션의 기본 방식은 WAR(Web application ARchive)파일 배포 방식을 따른다. 그에 추가적으로 시스템을 설치하기
 	위해 필요한 사항들을 쉽게 진행할 수 있도록 제공한다.</p>
 	
-	<h2><label>유지 보수하기</label> 쉬운</h2>
+	<h4><label>유지 보수하기</label> 쉬운</h4>
 	<p>유지보수 쉽게 할 수있도록 제공.</p>
 	
 	</div>
-	</div>
-</div>
 </div>
 <%@include file="/common/piece/footer.jsp" %>

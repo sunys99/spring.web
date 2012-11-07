@@ -1,5 +1,4 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
-<div id="container">
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script>
 	var stockholm = new google.maps.LatLng(59.32522, 18.07002);
@@ -45,7 +44,7 @@
 	}
 	
 </script>
-<div class="cContent">
+<div class="rContent">
 	<h2 class="hTitle" onclick="initialize();">회원가입</h2>
 	<div id="regArea" style="float: left;">
 		<table class="tblInputForm">
@@ -70,6 +69,5 @@
 	</div>
 	
 	<div id="map_canvas" style="height:500px;"></div>
-</div>
 </div>
 <%@include file="/common/piece/footer.jsp" %>

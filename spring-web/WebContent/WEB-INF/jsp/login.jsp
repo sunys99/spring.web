@@ -1,7 +1,6 @@
 <%@include file="/common/piece/header.jsp" %><%@ page language="java" pageEncoding="UTF-8"%>
-<div id="container">
-<div class="cContent">
-	<h2 class="hTitle">로그인</h2>
+<div class="rContent">
+	<div class="hTitle"><label>로그인</label></div>
 	<div align="center">
 		<form:form id="ss" >
 		<table class="tblInputForm">
@@ -15,6 +14,5 @@
 		</div>
 		</form:form>
 	</div>
-</div>
 </div>
 <%@include file="/common/piece/footer.jsp" %>
