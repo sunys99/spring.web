@@ -22,6 +22,7 @@ SyntaxHighlighter.autoloader(
 );
 SyntaxHighlighter.all();
 </script>
+<meta name="description" content="DevFrame은 쉬운 웹 프레임 워크 입니다. 웹 어플리케이션(사이트)를 쉽게 만들고 유지보수 할 수있습니다.">
 </head>
 <body>
 <div id="wrap">

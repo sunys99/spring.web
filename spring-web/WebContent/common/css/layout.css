@@ -83,7 +83,7 @@
 .wikiContent h5{margin: 20px 0 7px 20px;}
 .wikiContent h6{margin: 15px 0 6px 25px;}
 
-.wikiContent p{padding: 0 0 0 20px; }
+.wikiContent p{padding: 0 0 0 20px;}
 
 #main_desc {padding: 120px 0px 0px 0px;}
 #main_desc a {color: white;font-size: 40px;font-weight: bold;}
@@ -92,7 +92,7 @@
 
 
 /* menu navigation */
-.snb{float: left;border-right: 1px solid #DADADA; padding:5px; width: 90px;margin:5px 0 30px 0;}
+.snb{float: left;border-right: 1px solid #DADADA; padding: 15px 5px 5px 5px; width: 90px;margin:5px 0 30px 0;}
 .snb ul{margin: 0 0 15px 0;}
 .snb ul li {padding: 0 3px 2px 0;margin: 5px 0;text-align: right;}
 .snb ul li label{font-weight: bold;font-size: 15px;color: #2F3232;}

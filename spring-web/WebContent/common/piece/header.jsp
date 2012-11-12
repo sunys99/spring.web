@@ -9,6 +9,7 @@
 	 <div class="gnb">
 		 <ul>
 		 <li><a href="login.do">로그인</a></li>
+		 <li><a href="signup.do">회원가입</a></li>
 		 <li><a href="download.do">다운로드</a></li>
 		 <li><a href="manual.do">가이드문서</a></li>
 		 <li id="gsearch"><input type="text" style="width: 150px;"></li>

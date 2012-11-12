@@ -45,7 +45,7 @@
 	
 </script>
 <div class="rContent">
-	<h2 class="hTitle" onclick="initialize();">회원가입</h2>
+	<div class="hTitle"><label>회원가입</label></div>
 	<div id="regArea" style="float: left;">
 		<table class="tblInputForm">
 		<form:form modelAttribute="user" name="userform" method="post">
